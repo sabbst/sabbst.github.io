@@ -1,0 +1,56 @@
+.navbar-black {
+  background-color: #333;
+  border-radius: 0px;
+}
+
+.navbar-black a {
+  color: white;
+}
+
+.navbar-black a:hover {
+  color: black;
+}
+
+.navbar-black li a:hover {
+  background-color: #138419;
+}
+
+body { padding-top: 100px;
+  background: #fffff0;
+}
+
+ul.social-list {
+  list-style-type: none;
+}
+
+ul.social-list li {
+  text-align:center;
+  margin-top:5px;
+}
+
+.h-divider {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 5px;
+  width: 100%;
+  border-top: 5px solid #138419;
+}
+
+.glyphicon-envelope {
+  font-size: 15px;
+  margin-right: 3px;
+}
+
+.jobposition {
+  margin-bottom: -2px;
+}
+
+.job-title {
+  margin-bottom: -2px;
+  font-weight: bold;
+}
+
+.dates {
+  font-size: 11px;
+  font-style: italic;
+}
