@@ -101,18 +101,6 @@ ul.social-list li {
   font-size: 3rem;
 }
 
-.column {
-  float: left;
-}
-
-.left {
-  width: 30%;
-}
-
-.right {
-  width: 70%;
-}
-
 .frame {
   display: flex;
 }
@@ -120,4 +108,10 @@ ul.social-list li {
 img {
   height: auto;
   margin: auto;
+}
+
+@media (min-width: 992px) {
+  .flexForBigScreen {
+    display: flex;
+  }
 }
