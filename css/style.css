@@ -62,7 +62,6 @@ ul.social-list li {
 }
 
 .dates {
-  font-family: 'Ubuntu', sans-serif;
   font-size: 11px;
   font-style: italic;
 }
@@ -75,15 +74,12 @@ ul.social-list li {
 }
 
 .firstsection {
-  font-family: "Ubuntu", sans-serif;
   width: 100%;
   background: #ffffff;
   font-size: 1.5rem;
 }
 
 .secondsection {
-  font-family: "Ubuntu", sans-serif;
-  width: 100%;
   background: #e6e6e6;
 }
 
