@@ -1,25 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
-.navbar-black {
-  background-color: #333;
-  border-radius: 0px;
-}
-
-.navbar-black a {
-  color: white;
-}
-
-.navbar-black a:hover {
-  color: black;
-}
-
-.navbar-black li a:hover {
-  background-color: #138419;
-}
 
 .about {
   padding-top: 50px;
 }
-
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    text-align: center;
+}
+}
 body {
   font-family: 'Ubuntu', sans-serif;
   padding-top: 100px;
@@ -70,7 +59,6 @@ ul.social-list li {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
 }
 
 .firstsection {
@@ -79,12 +67,6 @@ ul.social-list li {
   font-size: 1.5rem;
 }
 
-.secondsection {
-  background: #f2f2f2;
-}
-
-.thirdsection {
-  background: #e6e6e6;
 }
 
 .section-divider1 {
@@ -117,5 +99,20 @@ img {
 @media (min-width: 992px) {
   .flexForBigScreen {
     display: flex;
+  }
+}
+
+.column {
+  float:left;
+}
+.left {
+  width: 30%
+}
+.right {
+  width: 70%
+}
+@@media screen and (max-width: 600px) {
+  .column {
+    width: 100%
   }
 }
